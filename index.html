@@ -22,7 +22,13 @@
         margin: 100px 20px 90px 55px;
         letter-spacing: 50px;   }
   
-    .offset { margin-left: 40px; }
+    .offset span {
+        display: inline-block;
+        transform: rotate(12deg); }
+
+     .offset {
+        display: inline-block;
+        margin-left: 40px; }
     
   </style>
 
@@ -31,8 +37,8 @@
 
 <body>
   <p style="letter-spacing: 30px;">DE</p>
-  <p style="letter-spacing: 30px;">SI<span style="transform:rotate(12deg);">G</span>N</p>
-  <div style="margin-left: 80px;">for</div>
+  <p style="letter-spacing: 30px;">SI<span style="offset span">G</span>N</p>
+  <div style="offset">for</div>
   <p>A BET</p>
   <p>TER</p>
   <h1>WORLD</h1>  
